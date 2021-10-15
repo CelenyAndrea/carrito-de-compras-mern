@@ -13,7 +13,7 @@ const SideDrawer = ({show, click}) => {
         <div className={sidedrawerClass.join(' ')}>
             <ul className="sidedrawer__links" onClick={click}>
                 <li>
-                    <Link>
+                    <Link to="/cart">
                     <i className="fas fa-shopping-cart"></i>
                     <span>
                         Carito de compra
