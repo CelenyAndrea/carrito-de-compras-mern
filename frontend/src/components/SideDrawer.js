@@ -16,13 +16,13 @@ const SideDrawer = ({show, click}) => {
                     <Link>
                     <i className="fas fa-shopping-cart"></i>
                     <span>
-                        Cart
+                        Carito de compra
                         <span className="sidedrawer__cartbadge">0</span>
                     </span>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/">Shop</Link>
+                    <Link to="/">Tienda</Link>
                 </li>
             </ul>
         </div>
